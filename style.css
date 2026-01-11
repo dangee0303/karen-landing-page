@@ -162,13 +162,17 @@ li {
 }
 
 .testimonial {
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
     background-color: #e4e6eb;
     color: #1f2937;
 }
 .testimonial p {
+    margin-left: 15%;
+    margin-right: 15%;
     font-size: 36px;
-    font-weight: 100;
+    font-weight: 0;
     }
 
 .testimonial h6 {
