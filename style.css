@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    color: #f9faf8;
+}
+
+.header h6 {
+    margin: 0%;
+    font-size: 24px;
+    font-weight: 700    ;
+}
+.header-links li {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.section-1 {
+    background-color: #1F2937;
+}
+
+.team h2 {
+    font-size: 32px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.team p {
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.testimonial {
+    background-color: #e4e6eb;
+    color: #1f2937;
+}
+.testimonial p {
+    font-size: 36px;
+    font-weight: 100;
+    }
+
+.testimonial h6 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.testimonial h2 {
+    font-size: 32px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    color: white;
+}
+
+.cta-box button {
+    background-color: #3882f6;
+    color: white;
+    text-weight: bold;
+    border: 2px solid white;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
