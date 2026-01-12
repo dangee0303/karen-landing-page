@@ -31,6 +31,10 @@ li {
     justify-content: flex-end;
 }
 
+.hero-left {
+    margin-right: 10%;
+}
+
 .header {
     margin-top: 15px;
     margin-left: 10%;
@@ -58,10 +62,12 @@ li {
 }
 
 .header-links {
-    margin-right: 10%;
+    flex-wrap: wrap;
+    margin-right: 15%;
+    max-width: 100% ;
     min-width: 100%;
     padding-top:5px;
-    justify-content: flex-end; 
+    justify-content: flex-start ; 
     max-height: fit-content;
     display: flex;
     flex-direction: row;
@@ -72,6 +78,7 @@ li {
     margin: 0%;
     display: flex;
     flex-direction: row;
+    justify-self: center;
     padding: 10%;
     padding-top: 5%;    
 }
@@ -92,7 +99,10 @@ li {
     align-items: center;
 }
 
-.hero-right img {
+.hero-right {
+    display: flex;
+    justify-content: flex-end;
+    border: 5px beige;
     width: 700px;
     border-radius: 16px;
 }
@@ -109,8 +119,10 @@ li {
 }
 
 .hero-right img {
-    flex-basis: 300px;
-    width: 300px;
+    border-radius: 16px;
+    max-width: 100%;
+    flex-shrink: 1;
+    width: 800px;
     flex-direction: row;
     justify-content: flex-end;
 }   
@@ -125,8 +137,9 @@ li {
 }
 
 .top {
+    max-width: fit-content;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
     justify-content: flex-start;
     background-color: #1f2937;
     color: #f9faf8;
@@ -135,7 +148,7 @@ li {
 }
 
 .section-1 {
-    justify-content: flex-start     ;
+    justify-content: center;
     min-width: 100%;
     flex-direction: column;
     display: flex;
